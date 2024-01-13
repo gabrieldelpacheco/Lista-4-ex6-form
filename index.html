@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <form>
+            <section id="personal_data">
+                <section id="names">
+                    <label for="nome">Nome</label>
+                    <input type="text" id="nome" placeholder="Digite seu nome">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input type="text" id="sobrenome" placeholder="Digite sobrenome">
+                </section>
+                <section id="record">
+                    <label for="cpf">CPF</label>
+                    <input type="number" id="cpf" placeholder="Digite apenas números">
+                    <label for="nascimento">Data de nascimento</label>
+                    <input type="datetime" id="nascimento">
+                </section>
+                <section id="gender">
+                    <label for="sexo">Sexo</label>
+                    <select name="gender" id="sexo">
+                        <option value="mas">Masculino</option>
+                        <option value="fem">Feminino</option>
+                        <option value="trans">Trasngenero</option>
+                        <option value="out">Outro</option>
+                    </select>
+                </section>
+            </section>
+            <section id="address">
+                <section id="logradouro">
+                    <label for="name_logradouro">Nome do logradouro</label>
+                    <input type="text" id="name_logradouro" placeholder="Digite nome da rua, avenida e etc.">
+                    <label for="logradouro_label">Tipo de logradouro</label>
+                    <select name="public_place" id="logradouro_label">
+                        <option value="avenue">Avenida</option>
+                        <option value="cologne">Colônia</option>
+                        <option value="condominium">Condomínio</option>
+                        <option value="slum">Favela</option>
+                        <option value="subdivision">Loteramento</option>
+                        <option value="hill">Morro</option>
+                        <option value="block">Quadra</option>
+                        <option value="residential">Residencial</option>
+                        <option value="highway">Rodovia</option>
+                        <option value="roud">Rua</option>
+                        <option value="platter">Travessa</option>
+                        <option value="village">Vila</option>
+                    </select>
+                </section>
+                <section id="logradouro_localidade">
+                    <label for="numero">Número</label>
+                    <input type="number" id="numero" placeholder="Digite apenas número">
+                    <label for="complement">Complemento</label>
+                    <input type="text" id="complement" placeholder="Número da casa ou apartamento">
+                </section>
+                <section id="point_referencia">
+                    <label for="reference">Ponto de referência</label>
+                    <input type="text" id="reference" placeholder="Comercia, caracteristica do local ou da casa.">
+                </section>
+                <section id="localidade_regiao">
+                    <label for="cep">CEP</label>
+                    <input type="number" id="cep" placeholder="Digite apenas número">
+                    <label for="city">Cidade</label>
+                    <input type="text" id="city" placeholder="Nome da cidade">
+                </section>
+                <section id="localidade_nascional">
+                    <label for="neigborhood">Bairro</label>
+                    <input type="text" id="neigborhood" placeholder="Nome do bairro">
+                    <label for="uf">Estado</label>
+                    <select name="" id="uf">
+                        <option value="" class="estado_regiao">Região Norte</option>
+                        <option value="ac">Acre</option>
+                        <option value="ap">Amapá</option>
+                        <option value="am">Amazonas </option>
+                        <option value="pa">Pará </option>
+                        <option value="ro">Rondônia</option>
+                        <option value="rr">Roraima</option>
+                        <option value="to">Tocantins </option>
+                        <option value="" class="estado_regiao">Região Nordeste</option>
+                        <option value="al">Alagoas </option>
+                        <option value="ba">Bahia </option>
+                        <option value="ce">Ceará </option>
+                        <option value="ma">Maranhão </option>
+                        <option value="pb">Paraíba </option>
+                        <option value="pe">Pernambuco </option>
+                        <option value="pi">Piauí </option>
+                        <option value="rn">Rio Grande do Norte</option>
+                        <option value="se">Sergipe</option>
+                        <option value="" class="estado_regiao">Região Sudeste</option>
+                        <option value="es">Espírito Santo</option>
+                        <option value="mg">Minas Gerais</option>
+                        <option value="rj">Rio de Janeiro</option>
+                        <option value="sp">São Paulo</option>
+                        <option value="" class="estado_regiao">Região Sul</option>
+                        <option value="pr">Paraná </option>
+                        <option value="rs">Rio Grande do Su</option>
+                        <option value="sc">Santa Catarina</option>
+                        <option value="" class="estado_regiao">Região Centro-Oeste</option>
+                        <option value="df">Distrito Federal</option>
+                        <option value="go">Goiás</option>
+                        <option value="mt">Mato Grosso</option>
+                        <option value="ms">Mato Grosso do Sul</option>
+                    </select>
+                </section>
+            </section>
+            <section id="contact">
+                <section id="email">
+                    <label for="email_pr">E-mail principal</label>
+                    <input type="email" id="email_pr" placeholder="E-mail principal">
+                    <label for="email_sec">E-mail segundario</label>
+                    <input type="email" id="email_sec" placeholder="E-mail secundario">
+                </section>
+                <section id="phones">
+                    <label for="fone_pr">Telefone principal</label>
+                    <input type="tel" id="fone_pr" placeholder="Telefone principal">
+                    <label for="fone_sec">Telefone segundario</label>
+                    <input type="tel" id="fone_sec" placeholder="Telefone secundário">
+                </section>
+            </section>
+            <input type="submit">
+        </form>
+    </main>
+    <footer></footer>
+</body>
+
+</html>

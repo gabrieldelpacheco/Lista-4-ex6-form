@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 550px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2em;
+}
+#personal_data {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    border-bottom: .2em solid  black ;
+}
+
+#names {
+    display: flex;
+    justify-content: center;
+    padding: .5em 0;
+}
+
+#record {
+    display: flex;
+    justify-content: center;
+}
+
+#gender {
+    display: flex;
+    justify-content: center;
+    padding: .5em 0;
+}
+
+#address {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 ;
+    border-bottom: .2em solid black;
+}
+
+#logradouro {
+    display: flex;
+    justify-content: center;
+    padding: .5em 0;
+}
+
+#point_referencia {
+    display: flex;
+    justify-content: center;
+}
+
+#logradouro_localidade {
+    display: flex;
+    justify-content: center;
+    padding: .5em 0;
+}
+
+#localidade_regiao{
+     display: flex;
+     justify-content: center;
+     padding: .5em 0;
+}
+
+#localidade_nascional {
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0;
+}
+
+#email {
+    display: flex;
+    justify-content: center;
+    padding: .5em 0;
+}
+
+#phones {
+    display: flex;
+    justify-content: center;
+}
